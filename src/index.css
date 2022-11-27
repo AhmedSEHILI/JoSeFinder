@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* base styles */
+.login:hover .imgPrpl {
+    display : block;
+}
+
+.login:hover .imgWht {
+  display : none;
+}
+
+.wind {
+  top : 50%;
+  left : 50%;
+  transform: translate(-50%, 0);
+}
