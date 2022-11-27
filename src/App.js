@@ -1,14 +1,14 @@
 
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
-import Landing from './Landing';
 import Nav from './Nav';
+import Welcome from './Welcome';
 
 function App() {
   return (
     <Router>
       <div className="content">
           <Routes>
-              <Route path="/" element={<Landing />} />
+              <Route path="/" element={<Welcome />} />
           </Routes>
       </div>
 

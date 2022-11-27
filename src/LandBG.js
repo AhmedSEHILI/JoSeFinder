@@ -4,9 +4,10 @@ import Nav from './Nav';
 function LandBG(props) {
     return (
             <div className="realtive h-screen w-screen bg-[#FCF9F2]">
+                <div className="light absolute w-[650px] h-[500px] top-[65px] left-[70px]"></div>
                 <div className="absolute flex flex-col justify-between w-screen h-[58%] z-40">
                     <div className="flex flex-row-reverse mr-16 mt-[54px]"><Nav /></div> 
-                    <div className="ml-44">
+                    <div className="ml-52">
                         <div className="text-[48px] font-bold text-[#1D3072]">Find the jobs</div>
                         <div className="text-[48px] font-bold text-[#1D3072]">that fits your life</div>
                         <div className="text-lg font-semibold mt-1">Create free account to find thousands Jobs, Emplyment, & Career</div>
@@ -17,9 +18,6 @@ function LandBG(props) {
                         </div>
                     </div>
                 </div>
-                {/* <div className="z-40 flex flex-col">
-                    <div className=""><Nav /></div>
-                </div> */}
                 <div className="absolute top-0 left-0 pt-4 pl-6 text-[25px] font-bold">LOGO</div>
                 <img src="/Landing/group1.svg" alt="" className="absolute right-0 w-[50%]" />
                 <img src="/Landing/peintre.svg" alt="" className="absolute right-[35px] bottom-0 w-[12.3%]" />

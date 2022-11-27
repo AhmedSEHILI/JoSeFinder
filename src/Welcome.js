@@ -2,7 +2,7 @@ import React from 'react';
 import LandBG from './LandBG';
 import Nav from './Nav';
 
-function Landing(props) {
+function Welcome(props) {
     return (
         <div className="">
             <LandBG />
@@ -12,4 +12,4 @@ function Landing(props) {
     );
 }
 
-export default Landing;
+export default Welcome;
