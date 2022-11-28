@@ -25,3 +25,7 @@
 .light:hover {
   background: linear-gradient(229.51deg, rgba(250, 202, 125, 0) 56.15%, rgba(250, 202, 125, 0.2) 81.01%);
 }
+
+.big:hover .light{
+  background: linear-gradient(229.51deg, rgba(250, 202, 125, 0) 56.15%, rgba(250, 202, 125, 0.2) 81.01%);
+}
