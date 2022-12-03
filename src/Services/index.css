@@ -1,0 +1,37 @@
+
+.Card1{
+    transition: transform 0.5s;
+}
+
+.Card2{
+    transition: transform 0.5s;
+}
+
+.clr{
+    transition: opacity 0.1s;
+}
+.hov1:hover .clr{
+    opacity: 0.19;
+}
+.BigCard:hover .Card1{
+    transform: rotate(0deg);
+}
+
+.BigCard:hover .Card2{
+    transform: rotate(0deg);
+}
+
+.txt{
+    transition: translate 0.3s;
+}
+.Explore:hover .txt{
+    translate: 0 -20px;
+}
+
+.Exp{
+    transition: opacity 0.2s ;
+    translate: 0 -20px;
+}
+.Explore:hover .Exp{
+    opacity: 1;
+}

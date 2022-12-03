@@ -1,12 +1,14 @@
 import React from 'react';
 import ButtNav from './ButtNav';
+import {Link } from "react-router-dom";
+
 
 function Nav(props) {
     return (
         <div className="flex flex-row">
             <div className="flex flex-row pr-10">
-                <ButtNav name ="Home" />
-                <ButtNav name ="Services" />
+                <ButtNav name ="Home" hrf="#sec1"/>
+                <ButtNav name ="Services" hrf="#sec2"/>
                 <ButtNav name ="Offers" />
                 <ButtNav name ="Reviews" />
                 <ButtNav name ="About us" />
