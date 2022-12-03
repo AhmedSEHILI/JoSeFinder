@@ -2,12 +2,13 @@ import React from 'react';
 import Nav from './Nav';
 import Services from './Services/Services';
 import {Link } from "react-router-dom";
+import Offers from './Offers/Offers';
 
 
 function LandBG(props) {
     const d = 0;
     return (
-        <div className="overflow-hidden">
+        <div className="">
             <div id="section1" className="realtive h-screen w-screen bg-[#FCF9F2]">
 
                 <div className="absolute flex flex-col justify-between w-screen h-[58%] z-40">
@@ -33,6 +34,7 @@ function LandBG(props) {
                 <img src="/Landing/elec.svg" alt="" className="absolute left-0 bottom-0 w-[13%]" />
             </div>
             <Services/>
+            <Offers />
         </div>
         
     );

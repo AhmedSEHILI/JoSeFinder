@@ -4,6 +4,7 @@ import Nav from './Nav';
 import Bg from './Services/Bg';
 import Services from './Services/Services';
 import Welcome from './Welcome';
+import Offers from './Offers/Offers';
 
 function App() {
   return (

@@ -35,3 +35,7 @@
 .Explore:hover .Exp{
     opacity: 1;
 }
+
+.JobCard{
+    background-image: url("BorderImg.svg");
+}
