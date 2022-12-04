@@ -11,7 +11,7 @@ function LandBG(props) {
             <div id="section1" className="realtive h-screen w-screen bg-[#FCF9F2]">
 
                 <div className="absolute flex flex-col justify-between w-screen h-[58%] z-40">
-                    <div className="flex flex-row-reverse mr-[3%] mt-[3%]"><Nav /></div> 
+                    <div className="flex flex-row-reverse lg:mr-[3%] mt-[2.9%] lg:mt-[3.6%]"><Nav /></div> 
                     <div className="ml-[11%]">
                         <div className="text-[2.5vw] font-bold text-[#1D3072]">Find the jobs</div>
                         <div className="text-[2.5vw] font-bold text-[#1D3072]">that fits your life</div>
@@ -27,7 +27,7 @@ function LandBG(props) {
                     </div>
                 </div>
                 <div className="absolute top-0 left-0 pt-4 pl-6 text-[25px] font-bold">LOGO</div>
-                <img src="/Landing/group1.svg" alt="" className="absolute right-0 w-[50%]" />
+                <img src="/Landing/group1.svg" alt="" className="absolute right-0 w-[55%]" />
                 <img src="/Landing/peintre.svg" alt="" className="absolute right-[1.8%] bottom-0 w-[12.3%]" />
                 <img src="/Landing/window.svg" alt="" className="wind absolute w-[32%] mt-[3%]"/>
                 <img src="/Landing/elec.svg" alt="" className="absolute left-0 bottom-0 w-[14%]" />
