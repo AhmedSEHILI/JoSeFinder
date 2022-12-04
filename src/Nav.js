@@ -5,8 +5,8 @@ import {Link } from "react-router-dom";
 
 function Nav(props) {
     return (
-        <div className="flex flex-row">
-            <div className="flex flex-row pr-12 lg:pr-16">
+        <div className="flex flex-row gap-7 lg:gap-16">
+            <div className="flex flex-row">
                 <ButtNav name ="Home" hrf="#sec1"/>
                 <ButtNav name ="Services" hrf="#sec2"/>
                 <ButtNav name ="Offers" />
@@ -15,8 +15,8 @@ function Nav(props) {
                 <ButtNav name ="Sign up" />
             </div>
             <button className="login flex flex-row text-[10px] lg:text-[0.8vw] hover:bg-[#FCF9F2] px-1 py-[2px] lg:px-4 lg:py-1 rounded-3xl border-[3.5px] border-transparent text-white hover:text-[#0009B2] font-bold hover:border-[3.5px] hover:border-[#1D3072]">
-                <img src="/Landing/IconPurple.svg" alt="" className="imgPrpl hidden pt-[3px] pr-3 w-[45%]" />
-                <img src="/Landing/IconWhite.svg" alt="" className="imgWht pt-[3px] pr-3 w-[45%]" />
+                <img src="/Landing/IconPurple.svg" alt="" className="imgPrpl hidden pr-3 w-[45%]" />
+                <img src="/Landing/IconWhite.svg" alt="" className="imgWht pr-3 w-[45%]" />
                 login
             </button>
 

@@ -11,7 +11,7 @@ function LandBG(props) {
             <div id="section1" className="realtive h-screen w-screen bg-[#FCF9F2]">
 
                 <div className="absolute flex flex-col justify-between w-screen h-[58%] z-40">
-                    <div className="flex flex-row-reverse lg:mr-[3%] mt-[2.9%] lg:mt-[3.6%]"><Nav /></div> 
+                    <div className="flex flex-row-reverse mr-[2%] lg:mr-[3%] mt-[2.9%] lg:mt-[3.6%]"><Nav /></div> 
                     <div className="ml-[11%]">
                         <div className="text-[2.5vw] font-bold text-[#1D3072]">Find the jobs</div>
                         <div className="text-[2.5vw] font-bold text-[#1D3072]">that fits your life</div>
@@ -22,13 +22,13 @@ function LandBG(props) {
                         <div className="big flex flex-row justify-between w-[25%] h-[13%] mt-[4%] mb-[4%]">
                             <button className="z-40 lg:text-[0.8vw] md:text-[1vw] w-[46%] h-full hover:bg-opacity-0 text-center rounded-3xl border-[3.5px] border-transparent hover:text-[#3D45E2] text-white bg-[#3D45E2] font-bold hover:border-[3.5px] hover:border-[#3D45E2]">Create Account</button>
                             <button className="z-40 lg:text-[0.8vw] md:text-[1vw] w-[46%] h-full hover:bg-[#3D45E2] text-center rounded-3xl border-[3.5px] border-[#3D45E2] hover:text-white text-[#0009B2] font-bold hover:border-[3.5px] hover:border-[#3D45E2]">Login</button>
-                            <div className="light z-30 absolute w-[650px] h-[500px] top-[65px] left-[70px]"></div>
+                            <div className="light z-30 absolute w-[34%] h-[93%] top-[10%] left-[5%]"></div>
                         </div>
                     </div>
                 </div>
                 <div className="absolute top-0 left-0 pt-4 pl-6 text-[25px] font-bold">LOGO</div>
                 <img src="/Landing/group1.svg" alt="" className="absolute right-0 w-[55%]" />
-                <img src="/Landing/peintre.svg" alt="" className="absolute right-[1.8%] bottom-0 w-[12.3%]" />
+                <img src="/Landing/peintre.svg" alt="" className="absolute right-0 top-[37%] w-[15.5%]" />
                 <img src="/Landing/window.svg" alt="" className="wind absolute w-[32%] mt-[3%]"/>
                 <img src="/Landing/elec.svg" alt="" className="absolute left-0 bottom-0 w-[14%]" />
             </div>
