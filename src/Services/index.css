@@ -24,17 +24,23 @@
 .txt{
     transition: translate 0.3s;
 }
-.Explore:hover .txt{
-    translate: 0 -20px;
-}
+
 
 .Exp{
     transition: opacity 0.2s ;
     translate: 0 -20px;
 }
-.Explore:hover .Exp{
-    opacity: 1;
+
+@media (min-width: 1024px){
+    .Explore:hover .txt{
+        translate: 0 -20px;
+    }
+    .Explore:hover .Exp{
+        opacity: 1;
+    }
+    
 }
+
 
 .JobCard{
     background-image: url("BorderImg.svg");

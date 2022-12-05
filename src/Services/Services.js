@@ -8,9 +8,9 @@ function Services(props) {
         <div id="sec2" className="relative ">
             <div className="absolute z-40 flex flex-col w-scren h-screen w-screen items-center justify-between">
                 <div>
-                  <div className="text-[42px] font-bold text-[#1D3072] mt-14">Explore offers by category</div>
-                  <div className="text-[14px] font-semibold text-center mt-4">Have you a skill ? propose your services to get the most</div>
-                  <div className="text-[14px] font-semibold text-center">exiting job in the country !</div>
+                  <div className="text-[28px] lg:text-[42px] font-bold text-[#1D3072] mt-[10%]">Explore offers by category</div>
+                  <div className="text-[12px] lg:text-[14px] font-semibold text-center mt-[3%]">Have you a skill ? propose your services to get the most</div>
+                  <div className="text-[12px] lg:text-[14px] font-semibold text-center">exiting job in the country !</div>
                 </div>
                 <div className="BigCard relative h-[380px] w-[670px] mb-40">
                     <div className='hov1'>
@@ -36,9 +36,9 @@ function Services(props) {
                     </div>
                     
                 </div>
-                <div className="Explore flex flex-col h-[80px]">
+                <div className="Explore flex flex-col h-[10%]">
                      <div className="txt text-[14px] font-bold text-center">Explore more offers</div>
-                     <img src="/Services/Explore.svg" alt="ExploreButton" className="Exp h-[30%] opacity-0 " />
+                     <img src="/Services/Explore.svg" alt="ExploreButton" className="Exp h-[30%] opacity-0 lg:block hidden" />
                 </div>
                 
             </div>
