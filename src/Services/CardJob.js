@@ -2,10 +2,13 @@ import React from 'react';
 
 function CardJob(props) {
     return (
-        <div className="JobCard h-[200px] w-[150px] bg-slate-200 flex flex-col items-center justify-evenly">
-            <div className="text-[22px] font-bold text-[#1D3072] mt-6"> Painting</div>
-            <div className="text-[13px] font-semibold text-center">22 Offers</div>
-            <img src="/Services/Painter.svg" alt="" className="mt-6" />
+        <div className="relative w-[200px]">
+            <div className="absolute flex flex-col left-[50%] top-[15%] translate-x-[-50%]">
+                <div className="text-[24px] font-bold text-[#1D3072] text-center">Building</div>
+                <div className="text-[12px] font-semibold text-center">22 offers</div>
+                <img src="/Services/Painter.svg" alt="" className="w-[70%] m-auto pt-[45%]" />
+            </div>
+            <img src="/Services/BorderImg.svg" alt="" className="w-[80%]" />
         </div>
     );
 }

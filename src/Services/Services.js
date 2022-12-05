@@ -1,5 +1,6 @@
 import React from 'react';
 import Bg from './Bg';
+import CardJob from './CardJob';
 import './index.css';
 
 
@@ -12,27 +13,26 @@ function Services(props) {
                   <div className="text-[12px] lg:text-[14px] font-semibold text-center mt-[3%]">Have you a skill ? propose your services to get the most</div>
                   <div className="text-[12px] lg:text-[14px] font-semibold text-center">exiting job in the country !</div>
                 </div>
-                <div className="BigCard relative h-[380px] w-[670px] mb-40">
+                <div className="BigCard relative h-[42%] w-[35%] mb-[7%]">
                     <div className='hov1'>
-                        <img src="/Services/Card1.svg" alt="Card1" className='Card1 absolute z-10 left-[130px] top-0 rotate-[-20deg] hover:left-[123px] hover:w-[163px]' />
-                        <div className="absolute clr z-0 w-[137px] h-[191px] left-[136px] top-[13px] bg-[#FD1F4A] opacity-0"></div>
+                        <img src="/Services/Card1.svg" alt="Card1" className='Card1 w-[23%] h-[56%] absolute z-10 left-[20%] top-0 rotate-[-20deg] hover:left-[18.6%] hover:w-[24.5%]' />
+                        <div className="absolute clr z-0 w-[21%] h-[50%] left-[20.4%] top-[3.1%] bg-[#FD1F4A] opacity-0"></div>
                     </div>
                     <div className="hov1">
-                        <img src="/Services/Card2.svg" alt="Card2" className='Card1 absolute z-10 left-[390px] rotate-[-20deg] hover:left-[383px] hover:w-[163px]'/>
-                        <div className="absolute clr z-0 w-[137px] h-[191px] left-[396px] top-[13px] bg-[#FD1F4A] opacity-0"></div>
-
+                        <img src="/Services/Card2.svg" alt="Card2" className='Card1 w-[23%] h-[56%] absolute z-10 left-[59%] rotate-[-20deg] hover:left-[57.9%] hover:w-[24.5%]'/>
+                        <div className="absolute clr z-0 w-[21%] h-[50%] left-[59.6%] top-[3.1%] bg-[#FD1F4A] opacity-0"></div>
                     </div>
                     <div className="hov1">
-                        <img src="/Services/Card3.svg" alt="Card3" className='Card2 absolute z-10 left-0 top-[180px] rotate-[20deg] hover:top-[170px] hover:w-[163px]'/>
-                        <div className="absolute clr z-0 w-[137px] h-[191px] left-[13px] top-[183px] bg-[#FD1F4A] opacity-0"></div>
+                        <img src="/Services/Card3.svg" alt="Card3" className='Card2 w-[23%] h-[56%] absolute z-10 left-0 top-[47.5%] rotate-[20deg] hover:top-[45%] hover:w-[24.5%]'/>
+                        <div className="absolute clr z-0 w-[21%] h-[50%] left-[1.8%] top-[48.1%] bg-[#FD1F4A] opacity-0"></div>
                     </div>
                     <div className="hov1">
-                        <img src="/Services/Card4.svg" alt="Card4" className='Card2 absolute z-10 left-[260px] top-[180px] rotate-[20deg] hover:top-[170px] hover:left-[253px] hover:w-[163px]'/>
-                        <div className="absolute clr z-0 w-[137px] h-[191px] left-[266px] top-[183px] bg-[#FD1F4A] opacity-0"></div>
+                        <img src="/Services/Card4.svg" alt="Card4" className='Card2 w-[23%] h-[56%] absolute z-10 left-[40%] top-[47.5%] rotate-[20deg] hover:top-[45%] hover:left-[38.4%] hover:w-[24.5%]'/>
+                        <div className="absolute clr z-0 w-[21%] h-[50%] left-[40.2%] top-[48.1%] bg-[#FD1F4A] opacity-0"></div>
                     </div>
                     <div className="hov1">
-                        <img src="/Services/Card5.svg" alt="Card5" className='Card2 absolute z-10 left-[520px] top-[180px] rotate-[20deg] hover:top-[170px] hover:left-[513px] hover:w-[163px]'/>
-                        <div className="absolute clr z-0 w-[137px] h-[191px] left-[526px] top-[183px] bg-[#FD1F4A] opacity-0"></div>
+                        <img src="/Services/Card5.svg" alt="Card5" className='Card2 w-[23%] h-[56%] absolute z-10 left-[78.6%] top-[47.5%] rotate-[20deg] hover:top-[45%] hover:left-[77.2%] hover:w-[24.5%]'/>
+                        <div className="absolute clr z-0 w-[21%] h-[50%] left-[79%] top-[48.1%] bg-[#FD1F4A] opacity-0"></div>
                     </div>
                     
                 </div>

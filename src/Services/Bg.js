@@ -3,9 +3,7 @@ import CardJob from './CardJob';
 
 function Bg(props) {
     return (
-        <div className="relative h-screen w-screen bg-[#FCF9F2]">
-            {/* <div className="absolute left-96 top-10"> <CardJob /></div> */}
-           
+        <div className="relative h-screen w-screen bg-[#FCF9F2]">           
             <img src="/Services/LeftShape.svg" alt="leftshapes" className="absolute w-[15.1%]" />
             <img src="/Services/RightShape.svg" alt="RightShape" className="absolute bottom-0 right-0 w-[22%]" />
             <img src="/Services/Woman.svg" alt="Woman" className="absolute bottom-0 left-0 lg:left-[12%] w-[12.3%]" />
