@@ -8,8 +8,7 @@ import Offers from './Offers/Offers';
 function LandBG(props) {
     return (
         <div className="">
-            <div id="section1" className="realtive h-screen w-screen bg-[#FCF9F2]">
-
+            <div id="section1" className="realtive h-screen w-screen bg-[#FCF9F2]">                
                 <div className="absolute flex flex-col justify-between w-screen h-[58%] z-40">
                     <div className="flex flex-row-reverse mr-[2%] lg:mr-[3%] mt-[2.9%] lg:mt-[3.6%]"><Nav /></div> 
                     <div className="ml-[11%]">

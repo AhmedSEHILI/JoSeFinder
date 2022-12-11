@@ -7,8 +7,8 @@ function Nav(props) {
     return (
         <div className="flex flex-row gap-7 lg:gap-16">
             <div className="flex flex-row">
-                <ButtNav name ="Home" hrf="#sec1"/>
-                <ButtNav name ="Services" hrf="#sec2"/>
+                <ButtNav name ="Home"/>
+                <ButtNav name ="Services"/>
                 <ButtNav name ="Offers" />
                 <ButtNav name ="Reviews" />
                 <ButtNav name ="About us" />
