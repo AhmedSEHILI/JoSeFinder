@@ -7,6 +7,7 @@ function Main(props) {
     return (
         <div className=''> 
             <Hero />
+            {/* <Hero /> */}
         </div>
     );
 }
