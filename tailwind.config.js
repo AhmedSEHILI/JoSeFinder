@@ -15,11 +15,16 @@ module.exports = {
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }
 
+      'llgg': '1300px',
+      // => @media (min-width: 1536px) { ... }
+
+
       'xl': '1280px',
       // => @media (min-width: 1280px) { ... }
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
+
     },
   },
   plugins: [],

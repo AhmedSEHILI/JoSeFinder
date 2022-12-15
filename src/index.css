@@ -44,4 +44,12 @@
 }
 
 
+.shad {
+  box-shadow: rgba(61, 71, 226, 0.15) -10px 19px 38px, rgba(61, 71, 226, 0.15) 0px 15px 12px;
+}
+
+.shad2:hover{
+  box-shadow: rgba(61, 71, 226, 0.15) -10px 19px 38px, rgba(61, 71, 226, 0.15) 0px 15px 12px;
+}
+
 }
