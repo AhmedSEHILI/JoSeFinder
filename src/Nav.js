@@ -1,7 +1,7 @@
 import React from 'react';
 import ButtNav from './ButtNav';
 import {Link } from "react-router-dom";
-
+import { motion } from 'framer-motion';
 
 function Nav(props) {
     return (
