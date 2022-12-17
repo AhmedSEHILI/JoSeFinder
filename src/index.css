@@ -53,3 +53,15 @@
 }
 
 }
+
+.contain:hover .back {
+  visibility: visible;
+}
+
+.rot1{
+  transition: transform 0.5s;
+}
+
+.fullGrid:hover .rot1{
+  transform: rotate(0);
+}
