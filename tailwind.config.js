@@ -18,11 +18,13 @@ module.exports = {
       'llgg': '1300px',
       // => @media (min-width: 1536px) { ... }
 
-
       'xl': '1280px',
       // => @media (min-width: 1280px) { ... }
 
       '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+
+      'xxll': '1750px',
       // => @media (min-width: 1536px) { ... }
 
     },
