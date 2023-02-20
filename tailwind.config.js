@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'DarkBlue': '#1D3072',
+        'MyGrey': '#CBCBCB'
+      },
+    },
     screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
@@ -27,7 +32,8 @@ module.exports = {
       'xxll': '1750px',
       // => @media (min-width: 1536px) { ... }
 
-    },
+    }
   },
+
   plugins: [],
 }
