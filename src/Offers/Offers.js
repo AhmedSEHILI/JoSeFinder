@@ -9,7 +9,7 @@ function Offers(props) {
                 <div className="text-[14px] font-semibold text-center mt-4">Check the offers and get the chance</div>
                 <div className="text-[14px] font-semibold text-center">to show people your skills</div>
             </div>
-            <img src="/Offers/RightSide.svg" alt="RightSide" className="Lside w-[22%]" />
+            <img src="/Offers/RightSide.svg" alt="RightSide" className="Lside" />
         </div>
     );
 }

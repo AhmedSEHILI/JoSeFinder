@@ -10,7 +10,10 @@ import BackG from './SIgnUp/BackG';
 
 function App() {
   return (
-      <div className="content">
+      <div className="">
+        <Hero />
+        <Services />
+        <Offers />
         <BackG />
 
       </div>
